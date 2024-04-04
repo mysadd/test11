@@ -1,0 +1,38 @@
+/* Стили для меню сайта */
+.navbar-nav .nav-link {
+    color: #000;
+    font-size: 18px;
+  }
+  
+  /* Убрать маркеры списка */
+  .navbar-nav, .footer {
+    list-style-type: none;
+  }
+  
+  /* Стили для заголовков и текста на странице товара каталога */
+  h1, h2, h3 {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  p {
+    color: #000;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+  }
+  
+  .product-description {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+  
+  /* Стили для списка характеристик товара */
+  .characteristics-list {
+    list-style-image: url('your-image-url.png'); /* Замените 'your-image-url.png' на путь к вашему изображению */
+  }
+  
